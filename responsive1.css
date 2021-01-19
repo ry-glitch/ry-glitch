@@ -1,0 +1,83 @@
+@media (max-width: 1000px ) {
+.lesson{
+  width: 50%;
+}
+  footer{
+    text-align: center;
+  }
+  .footer-right{
+    /* padding: 0 0; */
+    /* margin:0 0; */
+    /* text-align: center; */
+  }
+}
+@media (max-width: 670px ) {
+  .icon{
+    display: block;
+  }
+  .container{
+    width:100%;
+  }
+  .header-right{
+    display: none;
+  }
+  .top-wrapper h1{
+    font-size: 28px;
+  }
+  .top-wrapper p{
+    font-size: 18px;
+  }
+  .btn{
+    /* padding: 2px 100%; */
+    width:100%;
+  }
+  .twitter{
+    margin-top: 10px;
+  }
+
+  .lesson{
+    width: 100%;
+  }
+
+.Html{
+  /* left:39%; */
+}
+.jQuery{
+  /* left: 43%; */
+}
+.Ruby{
+  /* left: 44%; */
+}
+.JavaScript{
+  /* left: 40%; */
+}
+
+
+.text-contents{
+  width: 50%;
+  margin: 0 auto;
+  font-size: 12px;
+}
+footer{
+  text-align: center;
+}
+  .footer-left{
+    /* width: 40%; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* imgタグはインライン */
+  }
+  .footer-right{
+    /* padding: 0 0; */
+    /* margin:0 0; */
+    /* text-align: center; */
+  }
+  .message h3{
+    font-size: 22px;
+  }
+  .message-btn{
+    width: 100%;
+  }
+
+
+}
