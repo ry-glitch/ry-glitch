@@ -1,0 +1,243 @@
+*{
+  box-sizing:border-box;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+body{
+  margin: 0 0;
+  max-width: 2000px;
+}
+
+
+
+/* header */
+header{
+  background-color: rgba(34, 49, 52, 0.9);
+  height:65px;
+  position: fixed;
+  z-index: 1000000000;
+  width: 100%;
+  margin-top: 0;
+}
+.header-left{
+  padding-top:20px;
+  padding-left: 20px;
+  float: left;
+}
+.header-right{
+  float: right;
+}
+.icon{
+  display: none;
+  float: right;
+  line-height: 65px;
+  padding: 0 20px 0 35px;
+}
+.icon:hover{
+  background-color: rgba(120, 241, 200, 0.15);
+}
+.header-right a{
+  color: white;
+  padding:21px 25px;
+  line-height: 65px;
+}
+.header-btn:hover{
+  background-color: rgba(220, 220, 223, 0.18);
+
+}
+
+
+
+
+
+
+
+/* top-wrapper */
+.top-wrapper{
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size:cover;
+  color:white;
+  padding: 150px 0 100px 0;
+  text-align: center;
+}
+.container{
+  margin: 0 auto;
+  width:75%;
+
+}
+.top-wrapper p,h1 {
+  opacity:0.6;
+}
+.top-wrapper h1{
+  letter-spacing: 5px;
+  font-size:40px;
+  margin: 0;
+}
+.top-wrapper p{
+  font-size: 20px;
+  margin: 5px;
+}
+
+
+/* btn*/
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+  padding: 10px 30px;
+  border-radius: 4px;
+
+}
+.btn-wrapper{
+  margin-top: 20px;
+}
+.sign-in{
+  background-color: rgb(14, 147, 22);
+}
+.facebook{
+  background-color: rgb(14, 90, 203 );
+  margin-right: 20px;
+}
+.twitter{
+  background-color: rgb(118, 172, 245 );
+}
+.btn:hover{
+  opacity: 0.9;
+}
+.fa{
+  margin-right: 15px;
+}
+
+
+
+
+/* 真ん中レッスン一覧  */
+.lesson-wrapper{
+  background-color: rgba(127, 124, 129, 0.11);
+  text-align: center;
+}
+.logo{
+  padding: 10px 0 20px 0;
+}
+.logo h2{
+  font-weight:normal;
+  margin-top: 50px;
+}
+.lessons{
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 40px;
+}
+.lesson{
+  width:25%;
+}
+
+.lesson p{
+  opacity: 0.6;
+}
+.lesson-icon{
+  position: relative;
+  width: 100%;
+}
+.lesson-icon p{
+  font-size: 20px;
+  color:white;
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  opacity: 0.9;
+}
+.Html{
+  /* position: absolute; */
+  /* left:30%; */
+  /* top:44%; */
+}
+.jQuery{
+  /* position: absolute; */
+  /* left:37%; */
+  /* top:44%; */
+}
+.Ruby{
+  /* position: absolute; */
+  /* left:40%; */
+  /* top:44%; */
+}
+.JavaScript{
+  /* position: absolute; */
+  /* left:33%; */
+  /* top:44%; */
+}
+
+.text-contents{
+  width:80%;
+  opacity: 0.6;
+  font-size: 13px;
+}
+
+/*  メッセージ*/
+.message{
+  margin-bottom: 90px;
+  text-align: center;
+}
+.message p,h3{
+  opacity: 0.7;
+  font-weight: normal;
+}
+.message h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+
+
+.message-btn{
+  display: inline-block;
+  margin-top: 30px;
+  background-color: rgb(85, 210, 41);
+  color: white;
+  padding: 15px 50px;
+  box-shadow:0 5px rgb(9, 150, 61) ;
+  cursor: pointer;
+  border-radius: 4px;
+  opacity: 0.7;
+}
+
+
+.message-btn:hover{
+  opacity: 0.9;
+}
+
+
+.message-btn:active{
+  box-shadow:none;
+  position: relative;
+  top: 7px;
+}
+
+
+
+
+
+
+/* footer */
+footer{
+  border-top: 1px solid rgb(209, 208, 219);
+  /* background-color: rgb(176, 174, 169);floatのせいで意味なし。だった。 */
+}
+.footer-left{
+ padding: 10px 0 10px 0px;
+ margin:0 ;
+}
+.footer-right{
+  color: rgb(165, 175, 181);
+  padding: 0;
+  margin: 0;
+}
+.footer-right p{
+  margin: 0 0 14px 0;
+}
